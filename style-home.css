@@ -1,0 +1,44 @@
+#banner {
+    width: 100%;
+}
+
+.principal {
+    background-color: #bce1ab;
+    padding: 30px  0;
+}
+
+p {
+    text-align: center;
+}
+
+#missao {
+    font-size: 20px
+}
+
+#forte {
+    color: #657a38;
+}
+
+.produtos {
+    padding: 20px;
+}
+
+.itens {
+    font-style: italic;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    line-height: 4em;
+    width: 15%;
+    margin-left: 20%;
+}
+
+.titulo-principal {
+    padding-left: 20px;
+}
+
+.titulo-centralizado {
+    text-align: center;
+}

@@ -1,0 +1,222 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #bce1ab;
+    padding: 60px 15px 20px 30px;
+}
+
+.painel {
+
+    width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    padding-right: 50px;
+}
+
+nav a:hover {
+    color: green;
+    text-decoration: underline;
+}
+
+nav li {
+    display: inline;
+    margin-left: 30px;
+}
+
+nav {
+    position: absolute;
+    top: 80px;
+    right: 0px;
+}
+
+.lista-produtos {
+    width: 940px;
+    margin: 0px auto;
+    padding: 30px 0px;
+}
+
+.lista-produtos li {
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    padding: 50px 20px;
+    margin: 0 1.5%;
+    box-sizing: border-box;
+    border: 2px solid green;
+    border-radius: 9px;
+}
+
+.lista-produtos h2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.produto-desc {
+    font-size: 18px
+}
+
+.produto-preco {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.lista-produtos li:hover li {
+    border: 2px solid rgb(46, 73, 46);
+}
+
+.lista-produtos li:active {
+    border-color: green;
+}
+
+.lista-produtos li:hover h2 {
+    font-size: 30px;
+}
+
+footer {
+    background: url("bg.png");
+    text-align: center;
+    padding: 30px;
+}
+
+.copyright {
+    color: #ffffff;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+main {
+    width: 940px;
+    margin: 0px auto;
+}
+
+form {
+    margin: 40px 0px;
+}
+
+form label,
+form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.entrada {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background-color: rgb(23, 68, 23);
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: darkgreen;
+    transform: scale(1.005);
+}
+
+.banner {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    color: rgb(12, 59, 12);
+}
+
+.itens::before {
+    content: '🌿'
+    ;
+    font-size: 0.9em;
+}
+
+.titulo-subtitulo {
+    text-align: center;
+    font-size: 1em;
+}
+
+.principal {
+    padding: 3em 0;
+    background-color: rgb(252, 252, 252);
+}
+
+.principal p {
+    margin: 0 0 1em;
+    line-height: 1.3em;
+}
+
+.principal em {
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+.principal strong {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: rgb(60, 121, 60);
+}
+
+.produtos {
+    padding: 20px;
+}
+
+.produtos ul {
+    display: inline-block;
+    vertical-align: top;
+    line-height: 2em;
+    width: 20%;
+    margin-left: 30px;
+}
+
+.itens {
+    font-style: italic;
+}
+
+.imagem-produtos {
+    width: 35%;
+    opacity: 1;
+    box-shadow: 7px 7px 7px 0 #aaaaaa;
+}
+
+.mapa {
+    padding: 3em 0;
+}
+
+.mapa p {
+    margin: 0 0 3em;
+    text-align: center;
+    font-size: 1.5em;
+    color: rgb(60, 121, 60);
+}
+
+.itens:nth-child(odd) {
+    font-weight: bold;
+}
+
+.itens:nth-child(even) {
+    font-weight: bold;
+}
