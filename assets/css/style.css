@@ -85,7 +85,7 @@ nav {
 }
 
 footer {
-    background: url("bg.png");
+    background: url("../images/bg.png");
     text-align: center;
     padding: 30px;
 }
